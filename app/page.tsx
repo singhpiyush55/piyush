@@ -3,9 +3,7 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div>
-      {/* <Head>
-      </Head> */}
-      Blank
+      <p>The body will be here</p>
     </div>
   );
 }
