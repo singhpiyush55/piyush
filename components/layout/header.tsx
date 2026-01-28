@@ -20,6 +20,9 @@ export default function Header() {
       <h1 className="text-6xl font-semibold">
         Piyush Kumar Singh
       </h1>
+      <p
+        className="mt-3 pt-2 text-xs font-[cursive]"
+      >curious being..</p>
 
       <nav className="mt-4 flex gap-4">
         {links.map((link) => {
