@@ -209,7 +209,7 @@ const tools = [
         <li>
           Problem solving —
           <a
-            href="https://your-codolio-link.com"
+            href="https://codolio.com/profile/piyushsingh"
             target="_blank"
             className="
               ml-1
