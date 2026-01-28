@@ -22,12 +22,12 @@ export default function RootLayout({
           height={2}
           showSpinner={false}
         />
-
-        {/* CONTENT COLUMN */}
-        <div className="pl-10 pt-10 max-w-3xl flex-1">
+        <div
+          className="px-4 pt-6 sm:px-6 sm:pt-8 lg:px-10 lg:pt-10 max-w-3xl flex-1"
+        >
           <Header />
 
-          <main className="mt-16">
+          <main className="mt-10 sm:mt-14 lg:mt-16">
             {children}
           </main>
         </div>

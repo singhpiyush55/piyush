@@ -12,7 +12,7 @@ export default function Header() {
     { href: "/projects", label: "Projects" },
     { href: "/blogs", label: "Blogs" },
     { href: "/reachout", label: "Reach Out" },
-    { href: "/more", label: "More" },
+    // { href: "/more", label: "More" },
   ];
 
   return (
@@ -37,6 +37,8 @@ export default function Header() {
                     px-3
                     py-1
                     rounded-t-md
+                    border-3
+                    border-[rgb(255,230,3)]
                   `
                   : `
                     underline
