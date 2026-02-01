@@ -27,16 +27,15 @@ export default function Blogs() {
         {/* Text */}
         <div>
           <h3 className="text-lg font-medium mb-1">
-            Personal Blog
+            Can Agents Become Bigger Than SaaS?
           </h3>
-          <p className="text-white/80 text-sm">
-            Writing about learning, engineering, and thoughts.
-          </p>
+          {/* <p className="text-white/80 text-sm">
+          </p> */}
         </div>
 
         {/* Link icon */}
         <a
-          href="https://your-blog-site.com"
+          href="https://singhpiyushblogs.vercel.app/blogs/agents-new-saas.html"
           target="_blank"
           aria-label="Visit blog"
           className="
