@@ -49,15 +49,15 @@ export default function Projects() {
 
       <details className="mb-4">
         <summary className="cursor-pointer text-white font-medium">
-          TapIn (Dec 2025 – Jan 2026)
+          Discuss (Jan 2026)
         </summary>
 
         <div className="mt-2 text-white/80 leading-relaxed">
           <p>
-            A full-stack web application integrated with a sofisticated IoT system, that records user attendance using RFID/NFC and stores it securely in a database with real-time API integration.
+            A web chat-room.
           </p>
 
-          <a
+          {/* <a
             href="https://tapin.logictrail.space/"
             target="_blank"
             className="
@@ -71,9 +71,9 @@ export default function Projects() {
           >
             Live
           </a>
-          <span>         </span>
+          <span>         </span> */}
           <a
-            href="https://github.com/singhpiyush55/TapIn"
+            href="https://github.com/singhpiyush55/discuss"
             target="_blank"
             className="
               inline-block
