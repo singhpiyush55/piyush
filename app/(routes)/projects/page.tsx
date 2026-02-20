@@ -6,7 +6,7 @@ export default function Projects() {
       duration: "Ongoing",
       description: "A personal knowledge management system, built to organize and retrieve information (any random chunk like, YT video, X post, reddit post, some article, etc.) efficiently.",
       tech: ["React", "Node", "Express", "MongoDB", "JWT"],
-      live: null,
+      live: "https://second-brain-knowledge-store.vercel.app/",
       github: "https://github.com/singhpiyush55/second-brain",
     },
     {
