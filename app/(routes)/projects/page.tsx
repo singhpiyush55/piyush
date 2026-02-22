@@ -3,7 +3,7 @@ export default function Projects() {
   const projects = [
     {
       title: "Second-Brain",
-      duration: "Ongoing",
+      duration: "Feb 2026",
       description: "A personal knowledge management system, built to organize and retrieve information (any random chunk like, YT video, X post, reddit post, some article, etc.) efficiently.",
       tech: ["React", "Node", "Express", "MongoDB", "JWT"],
       live: "https://second-brain-knowledge-store.vercel.app/",
