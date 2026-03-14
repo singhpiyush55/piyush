@@ -2,6 +2,14 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "QuantFlow- Swing Trade Intelligence Engine",
+      duration: "Feb 2026",
+      description: "Engineered a full-stack AI stock recommendation platform that generates weekly swing-trade recommendations with using quantitative scoring, Python quant engine computing 15+ indicators and AI-driven analysis.",
+      tech: ["Copilot", "Turborepo", "Next.js", "PostgreSQL"],
+      live: null,
+      github: "https://github.com/singhpiyush55/st-recomm",
+    },
+    {
       title: "Second-Brain",
       duration: "Feb 2026",
       description: "A personal knowledge management system, built to organize and retrieve information (any random chunk like, YT video, X post, reddit post, some article, etc.) efficiently.",
