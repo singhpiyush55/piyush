@@ -2,7 +2,23 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "QuantFlow- Swing Trade Intelligence Engine",
+      title: "Applyn",
+      duration: "Ongoing",
+      description: "You paste a job description and the recruiter's email → the app generates a tailored application email using an LLM → sends it via Gmail API using the logged-in user's Google account.",
+      tech: ["Copilot", "Next.js", "PostgreSQL"],
+      live: null,
+      github: "https://github.com/singhpiyush55/applyn",
+    },    
+    {
+      title: "Tracker",
+      duration: "May 2026",
+      description: "All in one prductivity app for tracking your selected/traded stocks, manage SL and tragets, lets you journal about specific trade, track capital and pnl.",
+      tech: ["Next.js", "PostgreSQL", "Claude", ],
+      live: "https://pswingtt.vercel.app/login",
+      github: "https://github.com/singhpiyush55/tracker",
+    },
+    {
+      title: "QuantFlow",
       duration: "Feb 2026",
       description: "Engineered a full-stack AI stock recommendation platform that generates weekly swing-trade recommendations with using quantitative scoring, Python quant engine computing 15+ indicators and AI-driven analysis.",
       tech: ["Copilot", "Turborepo", "Next.js", "PostgreSQL"],
@@ -39,7 +55,7 @@ export default function Projects() {
       description:
         "A full-stack web application integrated with a sophisticated IoT system, that records user attendance using RFID/NFC and stores it securely in a database with real-time API integration.",
       tech: ["React", "Node", "Express", "MongoDB", "JWT", "IoT"],
-      live: "https://tapin.logictrail.space/",
+      live: "https://tap-in-nu.vercel.app/",
       github: "https://github.com/singhpiyush55/TapIn",
     }
   ];
